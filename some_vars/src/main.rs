@@ -1,4 +1,9 @@
 fn main() {
+   
+    ints();
+}
+
+fn ints(){
     let x = 4;
     println!("X is {}", x);
 
@@ -7,10 +12,7 @@ fn main() {
     x2 = 55;
     println!("X2 chanaged to {}", x2);
 
-    ints();
-}
-
-fn ints(){
+    
     let x: i64 = 3;
     println!("x={} 😋😋😋",x);
 }
