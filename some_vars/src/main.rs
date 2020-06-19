@@ -12,5 +12,5 @@ fn main() {
 
 fn ints(){
     let x: i64 = 3;
-    println!("x={}",x);
+    println!("x={} 😋😋😋",x);
 }
