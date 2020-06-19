@@ -4,6 +4,17 @@ fn main() {
     arrays_print();
     functions_();
     conditions_();
+    slices();
+}
+
+fn slices(){
+    let xs = String::from("some string");
+    let substr: &str = &xs[0..6]; //slice, immutable, it's type is &str
+    println!("{}", substr);
+
+    let is = [3, 4, 5, 6];
+    let is_slice :&[i32] = &is[0..3]; //type is &[i32]
+    println!("is_slice: {:#?}", is_slice);
 }
 
 fn conditions_(){
