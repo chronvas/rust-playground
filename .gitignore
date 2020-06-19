@@ -10,3 +10,4 @@ Cargo.lock
 **/*.rs.bk
 hello_cargo/target
 some_vars/target
+ownership/target
