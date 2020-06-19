@@ -2,6 +2,15 @@ fn main() {
    
     ints();
     tupples_breakdown();
+    arrays_print();
+}
+
+fn arrays_print(){
+    let people = ["Joe", "Jack", "Maria", "Kost"];
+    println!("people index 0 {}", people[0]);
+    println!("people, pretty print: {:#?}", people);
+    
+    // println!("people index 99 {}", people[99]);
 }
 
 fn tupples_breakdown(){
