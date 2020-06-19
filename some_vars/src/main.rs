@@ -10,6 +10,14 @@ fn conditions_(){
     if_case();
     loops();
     whiles();
+    for_loop();
+}
+
+fn for_loop(){
+    let people = ["Joe", "Jack", "Maria", "Kost"];
+    for element in people.iter() {
+        println!("element = {}", element);
+    }
 }
 
 fn whiles(){
