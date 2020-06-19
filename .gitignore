@@ -11,3 +11,4 @@ Cargo.lock
 hello_cargo/target
 some_vars/target
 ownership/target
+data_structures/target
