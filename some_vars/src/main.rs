@@ -1,15 +1,33 @@
 fn main() {
-   
     ints();
     tupples_breakdown();
     arrays_print();
+    functions_();
+}
+
+fn functions_(){
+    print_int(3);
+    
+    let result = multiply_by_two(9);
+    println!("result {}", result);
+
+
+}
+
+fn multiply_by_two(x:i32)->i32 {
+    //without semicolon
+    x*2
+}
+
+fn print_int(x:i32){
+    println!("x param = {}",x);
 }
 
 fn arrays_print(){
     let people = ["Joe", "Jack", "Maria", "Kost"];
     println!("people index 0 {}", people[0]);
     println!("people, pretty print: {:#?}", people);
-    
+
     // println!("people index 99 {}", people[99]);
 }
 
