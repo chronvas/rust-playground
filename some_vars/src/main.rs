@@ -3,6 +3,47 @@ fn main() {
     tupples_breakdown();
     arrays_print();
     functions_();
+    conditions_();
+}
+
+fn conditions_(){
+    if_case();
+    loops();
+    whiles();
+}
+
+fn whiles(){
+    let mut breaker = 0;
+    while breaker < 4 {
+        println!("while loop");
+        breaker = breaker +1;
+    }
+}
+
+fn loops(){
+    let mut breaker: i32 = 1;
+    loop{
+        println!("loop, breaker = {}",breaker);
+        if breaker == 4 {
+            break;
+        }
+        breaker = breaker + 1;
+    }
+}
+
+fn if_case(){
+    let x =3;
+    if x == 3 {
+        println!("x == 3");
+    }
+    if x == 3 && x < 4 {
+        println!("x == 3 && x < 4");
+    }
+    if x < 4 || x < 4 {
+        println!("x < 4 || x < 4");
+    } else {
+        println!("!  x < 4 || x < 4")
+    }
 }
 
 fn functions_(){
@@ -10,8 +51,6 @@ fn functions_(){
     
     let result = multiply_by_two(9);
     println!("result {}", result);
-
-
 }
 
 fn multiply_by_two(x:i32)->i32 {
