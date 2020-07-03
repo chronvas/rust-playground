@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/data_structures/data_structures.iml" filepath="$PROJECT_DIR$/data_structures/data_structures.iml" />
       <module fileurl="file://$PROJECT_DIR$/files_access/files_access.iml" filepath="$PROJECT_DIR$/files_access/files_access.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multiply-input/multiply-input.iml" filepath="$PROJECT_DIR$/multiply-input/multiply-input.iml" />
       <module fileurl="file://$PROJECT_DIR$/ownership/ownership.iml" filepath="$PROJECT_DIR$/ownership/ownership.iml" />
       <module fileurl="file://$PROJECT_DIR$/rust-playground.iml" filepath="$PROJECT_DIR$/rust-playground.iml" />
       <module fileurl="file://$PROJECT_DIR$/some_vars/some_vars.iml" filepath="$PROJECT_DIR$/some_vars/some_vars.iml" />
