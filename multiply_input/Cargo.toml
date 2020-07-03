@@ -1,5 +1,5 @@
 [package]
-name = "multiply-input"
+name = "multiply_input"
 version = "0.1.0"
 authors = ["chronvas <chron.vas@outlook.com>"]
 edition = "2018"
