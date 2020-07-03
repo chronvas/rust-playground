@@ -1,5 +1,5 @@
 [package]
-name = "hello_cargo"
+name = "rust-playground"
 version = "0.1.0"
 authors = ["chronvas <chron.vas@outlook.com>"]
 edition = "2018"
