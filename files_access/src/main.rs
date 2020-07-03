@@ -9,7 +9,7 @@ fn main() {
         Ok(file) => file,
         Err(error) => {
             panic!("Can't access file");
-        },
+        }
     };
 
     let mut buf_reader = BufReader::new(file_contents);
